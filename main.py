@@ -13,4 +13,4 @@ def generate_text(inp):
 
 output_text = gr.outputs.Textbox()
 gr.Interface(generate_text,"textbox", output_text, title="anusAI",
-    description="anusAI").launch()
+    description="anusAI").launch(share=True)
